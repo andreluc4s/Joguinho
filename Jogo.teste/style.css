@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bahnschrift';
+}
+
+section{
+    background-image: url(img/download.jpg);
+    width: 500px;
+    border-radius: 5px;
+}
+
+section .img{
+    background-image: url(img/branca.png);
+    width: 88%;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 10px;
+    
+}
+
+.life{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.life .progress-bar{
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    width: 70%;
+    border-radius: 15px ;
+}
+
+/*
+Botões
+*/
+
+.skils .btn1{
+    background-color:#ee092f;
+    display: inline-block;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    width: 80%;
+    text-align: center;
+    
+}
